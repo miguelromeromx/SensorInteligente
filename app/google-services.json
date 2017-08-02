@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "880296774599",
+    "firebase_url": "https://alarmadiaria-b503b.firebaseio.com",
+    "project_id": "alarmadiaria-b503b",
+    "storage_bucket": "alarmadiaria-b503b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880296774599:android:450c26547e5e3a86",
+        "android_client_info": {
+          "package_name": "com.example.miguelromerogallegos.alarmadiaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880296774599-h3jq3420mpkh6hks3269qbmuvigv4i85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miguelromerogallegos.alarmadiaria",
+            "certificate_hash": "0fe2651de076085a550a2089e421fb1d819d8f96"
+          }
+        },
+        {
+          "client_id": "880296774599-f0p6g0s3ivsjnfl35l8n1q8tu7dtr618.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA048q_HNgw3hbe1ADY0rPiNDEskkG6cL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880296774599-f0p6g0s3ivsjnfl35l8n1q8tu7dtr618.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880296774599:android:f0fb4ed1ae89bf43",
+        "android_client_info": {
+          "package_name": "com.example.miguelromerogallegos.sensorinteligente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880296774599-s1gu35d7ji17otln05m5r3tc8ourm10b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miguelromerogallegos.sensorinteligente",
+            "certificate_hash": "0fe2651de076085a550a2089e421fb1d819d8f96"
+          }
+        },
+        {
+          "client_id": "880296774599-f0p6g0s3ivsjnfl35l8n1q8tu7dtr618.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA048q_HNgw3hbe1ADY0rPiNDEskkG6cL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880296774599-f0p6g0s3ivsjnfl35l8n1q8tu7dtr618.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

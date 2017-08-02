@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sensor Inteligente</string>
+    <string name="seleccionar_hora">Hora Inicio</string>
+    <string name="selecciona_fecha">Hora  Final</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+    <string name="login_error">Login Error!</string>
+    <string name="action_logout">Cerrar Sesión</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="green">GREEN</string>
+    <string name="red">RED</string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="blue">BLUE</string>
+</resources>

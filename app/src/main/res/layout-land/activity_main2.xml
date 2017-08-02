@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_horain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:layout_above="@+id/et_horain"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+
+        android:text="@string/seleccionar_hora"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/et_horain"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hora Inicio"
+        android:textAlignment="center"
+
+        android:layout_marginBottom="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btn_horain"
+        android:layout_alignEnd="@+id/btn_horain" />
+
+    <Button
+        android:id="@+id/btn_horafin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_horain"
+        android:layout_alignBottom="@+id/btn_horain"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/mybutton"
+        android:text="@string/selecciona_fecha"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/et_horafin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hora Final"
+
+        android:textAlignment="center"
+        android:layout_alignBaseline="@+id/et_horain"
+        android:layout_alignBottom="@+id/et_horain"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/btn_horafin"
+        android:layout_alignStart="@+id/btn_horafin" />
+
+    <Button
+        android:id="@+id/so_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:text="CERRAR SESIÓN"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/tv_alarm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sensor de Movimiento"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/switch2"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Sensor"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
