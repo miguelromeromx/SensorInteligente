@@ -76,6 +76,7 @@ public class Main2Activity extends AppCompatActivity {
         final Intent my_intent2 = new Intent(Main2Activity.this, Alarm_Receiver2.class);
 
 
+
         pending_intent = PendingIntent.getBroadcast(Main2Activity.this, 0, my_intent,0);
         pending_intent2 = PendingIntent.getBroadcast(Main2Activity.this, 0, my_intent2,0);
 
